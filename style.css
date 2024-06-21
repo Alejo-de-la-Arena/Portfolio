@@ -793,7 +793,7 @@ span{
 
 @media (max-width: 475px){
     .Projects{
-        min-height: 330vh;
+        min-height: fit-content;
     } 
 }
 
@@ -898,8 +898,6 @@ span{
         margin: 0 auto; 
     }
 
-
-
     .home-content h1 {
         font-size: 4rem;
     }
@@ -912,10 +910,6 @@ span{
 
     .servicios-caja{
         height: 35rem;
-    }
-
-    .Projects{
-        min-height: 300vh;
     }
 
     .portfolio-capa h4{

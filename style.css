@@ -868,6 +868,10 @@ span{
         margin: 1rem;
     }
 
+    .Projects{
+        min-height: 350vh;
+    }
+
 }
 
 @media (max-width: 425px){

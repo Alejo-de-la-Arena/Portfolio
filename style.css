@@ -789,7 +789,6 @@ span{
     .servicios-caja-tablet{
         height: 35rem;;
     }
-
 }
 
 @media (max-width: 450px){
@@ -803,6 +802,20 @@ span{
 }
 
 @media (max-width: 425px){
+
+    .sobre-mi-img img{
+        height: 42rem;
+    }
+
+    .portfolio-caja{
+        width: 100%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .portfolio-caja img{
+        width: 100%;
+    }
     
     .Home {
         min-height: 115vh;
@@ -847,10 +860,6 @@ span{
         font-size: 2.5rem;
     }
 
-    .sobre-mi-img img{
-        height: 50rem;
-    }
-
     .servicios-caja{
         height: 35rem;
     }
@@ -875,6 +884,11 @@ span{
     .certificate-img img{
         width: 45rem;
         height: 25rem;
+    }
+
+    .experience-content{
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
     }
 }
 

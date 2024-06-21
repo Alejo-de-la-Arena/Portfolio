@@ -760,7 +760,7 @@ span{
     }
 
     .Projects{
-        min-height: 320vh;
+        height: fit-content;
     }
 
     .Projects h2{
@@ -789,12 +789,6 @@ span{
     .servicios-caja-tablet{
         height: 35rem;;
     }
-}
-
-@media (max-width: 475px){
-    .Projects{
-        min-height: fit-content;
-    } 
 }
 
 @media (max-width: 450px){
@@ -875,7 +869,7 @@ span{
     }
 
     .Projects{
-        min-height: 320vh;
+        height: fit-content;
     }
 }
 
@@ -888,7 +882,7 @@ span{
     .portfolio-caja img{
         width: 100%;
     }
-    
+
     .Home {
         min-height: 115vh;
     }

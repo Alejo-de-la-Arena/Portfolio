@@ -791,6 +791,12 @@ span{
     }
 }
 
+@media (max-width: 475px){
+    .Projects{
+        min-height: 330vh;
+    } 
+}
+
 @media (max-width: 450px){
     html{
         font-size: 50%;
@@ -871,7 +877,6 @@ span{
     .Projects{
         min-height: 320vh;
     }
-
 }
 
 @media (max-width: 425px){

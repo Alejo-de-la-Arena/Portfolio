@@ -869,7 +869,7 @@ span{
     }
 
     .Projects{
-        min-height: 350vh;
+        min-height: 320vh;
     }
 
 }
@@ -879,8 +879,6 @@ span{
     .sobre-mi-img img{
         height: 42rem;
     }
-
-
 
     .portfolio-caja img{
         width: 100%;

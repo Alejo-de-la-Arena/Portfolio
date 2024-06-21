@@ -799,6 +799,75 @@ span{
     .contact form .input-caja input{
         width: 100%;
     }
+
+    .portfolio-caja{
+        width: 100%;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .home-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem; 
+        text-align: center;
+    }
+
+    .home-content p {
+        margin-top: 1rem; 
+        margin-bottom: 2rem; 
+        margin-right: 2.5rem;
+        margin-left: 2.5rem;
+    }
+
+    .sobre-mi-h2{
+        font-size: 4rem;
+
+    }
+
+    .About{
+        display: flex;
+        flex-direction: column-reverse;
+
+    }
+
+    .sobre-mi-contenido{
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        text-align: center;
+    }
+
+    .sobre-mi-contenido h2{
+        text-align: center;
+        margin: 0;
+    }
+
+    .sobre-mi-img img{
+        height: 45rem;
+    }
+
+    .sobre-mi-contenido h3{
+        font-size: 2.5rem;
+        margin: 0;
+    }
+
+    .sobre-mi-contenido p{
+        margin-top: 2rem;
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+
+    .sobre-mi-contenido a{
+        margin: 0;
+    }
+
+    .skills-container{
+        margin: 1rem;
+    }
+
 }
 
 @media (max-width: 425px){
@@ -807,11 +876,7 @@ span{
         height: 42rem;
     }
 
-    .portfolio-caja{
-        width: 100%;
-        margin-left: 1.5rem;
-        margin-right: 1.5rem;
-    }
+
 
     .portfolio-caja img{
         width: 100%;
@@ -826,38 +891,16 @@ span{
         margin: 0 auto; 
     }
 
-    .home-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 2rem; 
-        text-align: center;
-    }
+
 
     .home-content h1 {
         font-size: 4rem;
-    }
-
-    .home-content p {
-        margin-top: 1rem; 
-        margin-bottom: 2rem; 
-        margin-right: 2.5rem;
-        margin-left: 2.5rem;
     }
 
     .redes-sociales {
         display: flex;
         justify-content: center;
         gap: 10px; 
-    }
-
-    .sobre-mi-h2{
-        font-size: 4rem;
-    }
-
-    .sobre-mi-contenido h3{
-        font-size: 2.5rem;
     }
 
     .servicios-caja{
